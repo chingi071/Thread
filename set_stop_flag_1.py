@@ -4,9 +4,6 @@ import time
 class MyThread(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
-        # threading.TIMEOUT_MAX = 1
-        # self.timeout = 0.002
-        # print(threading.TIMEOUT_MAX)
         self.counter = 0
         self.stop_flag = False
 
